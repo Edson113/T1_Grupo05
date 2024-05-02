@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">T1_Grupo05</string>
+
+    <string name="txtTC">T.C. referencial: </string>
+    <string name="txtCompra">Compra: </string>
+    <string name="txtVenta">Venta: </string>
+    <string name="txtProducto">Productos: </string>
+    <string name="txtOcultar">Ocultar saldos</string>
+
+    <string name="txtCuenta">Cuenta Simple Soles</string>
+    <string name="txtSaldodisp">Saldo disponible</string>
+    <string name="txtMontoCuenta">S/ 1,200.00</string>
+    <string name="txtTarjeta">Tarjeta Visa Premia</string>
+    <string name="txtLinea">Linea de crédito disponible</string>
+    <string name="txtMontoLinea">S/ 25,000.00</string>
+    <string name="txtMillas">Millas Benefit</string>
+    <string name="txtConocelas">¡Conócelas!</string>
 </resources>
