@@ -191,6 +191,7 @@
             android:layout_marginStart="15dp"
             android:text="@string/txtSaldodisp"
             android:textSize="11sp"
+            android:textColor="@color/gris"
             app:layout_constraintStart_toEndOf="@+id/imageView9"
             app:layout_constraintTop_toBottomOf="@+id/textView12" />
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -247,11 +248,13 @@
             android:layout_marginStart="15dp"
             android:text="@string/txtLinea"
             android:textSize="11sp"
+            android:textColor="@color/gris"
             app:layout_constraintStart_toEndOf="@+id/imageView10"
             app:layout_constraintTop_toBottomOf="@+id/textView15" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
         android:layout_width="350dp"
         android:layout_height="65dp"
         android:layout_marginTop="5dp"
@@ -296,5 +299,15 @@
             app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="32dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+        app:srcCompat="@drawable/arriba" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
