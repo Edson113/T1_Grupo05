@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/log_interbank"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="55dp" />
+        tools:layout_editor_absoluteY="47dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -48,14 +48,14 @@
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="141dp" />
+        tools:layout_editor_absoluteY="127dp" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints"
-        android:layout_marginBottom="-20dp"
+        android:layout_marginBottom="-25dp"
         app:cardCornerRadius="35dp">
 
 
@@ -63,10 +63,97 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="240dp">
+            android:padding="40dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="DNI"
+                    android:fontFamily=""
+                    android:textColor="@color/black"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/borde_redondo"
+                    android:padding="15dp"
+                    android:inputType="text"
+
+
+                    android:id="@+id/seleccion_doc">
+
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="N° de documento"
+                    android:textColor="#bababa"
+                    android:background="@drawable/borde_redondo"
+                    android:padding="15dp"
+                    android:inputType="text"
+
+
+                    android:id="@+id/dni_usuario">
+
+                </EditText>
+            </LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Contraseña"
+                android:textColor="#bababa"
+                android:background="@drawable/borde_redondo"
+                android:padding="15dp"
+                android:inputType="textPassword"
+
+
+                android:id="@+id/pass_usuario"
+
+
+                android:drawableEnd="@drawable/baseline_remove_red_eye_24">
+
+
+            </EditText>
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:text="Recordar documento"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#05BC50"
+                android:fontFamily="@font/cambay_regular"
+                android:padding="15dp"
+                android:text="Ingresar"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:cornerRadius="5dp"
+
+                android:id="@+id/btn_ingresar">
+
+            </Button>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="100dp">
+
+
+            </LinearLayout>
 
 
         </LinearLayout>
+
 
     </androidx.cardview.widget.CardView>
 
