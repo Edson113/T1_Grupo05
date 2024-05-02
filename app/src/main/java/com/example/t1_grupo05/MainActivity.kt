@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        setContentView(R.layout.activity_account_page)
 
 
     }
